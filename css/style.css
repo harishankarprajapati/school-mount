@@ -120,6 +120,44 @@
   background-size: cover;
   height: 630px;
 }
+.secherbg5 {
+  background-image: url(../images/herslider5.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 630px;
+}
+.secherbg6 {
+  background-image: url(../images/herslider6.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 630px;
+}
+.secherbg7 {
+  background-image: url(../images/herslider7.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 630px;
+}
+.secherbg8 {
+  background-image: url(../images/herslider8.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 630px;
+}
+.secherbg9 {
+  background-image: url(../images/herslider9.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 630px;
+}
+.secherbg10 {
+  background-image: url(../images/herslider10.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 630px;
+}
+
+
 .secherotext {
   text-align: center;
   padding: 300px;
