@@ -415,13 +415,13 @@ button.prev-btn2 {
   font-size: 30px;
 }
 .secfooterbg {
-  padding: 40px 20px;
+  padding: 40px 0px;
 }
 .footertext h4 {
   font-size: 26px;
   }
   .secprt p a {
-    font-size: 10px;
+    font-size: 14px;
 }
 .socalsec {
   display: flex;
@@ -740,9 +740,15 @@ marquee {
     padding: 0;
   }
   .secpassrw{
-    padding-top: 30px;
+    padding-top: 0px;
 
   }
+  .secprt {
+    display: flex
+;
+    justify-content: flex-end;
+    flex-direction: column;
+}
   .secpassrw img{
     padding: 10px;
   }
@@ -790,4 +796,9 @@ p{
 .secherotext p{
   text-align: center !important;
 }
+.seciqatext {
+  padding: 10px;
+}
+
+
 }
