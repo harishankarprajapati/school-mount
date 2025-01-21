@@ -359,6 +359,13 @@ ul.dropdown-menu.show {
 .sechair{
   padding-top: 20px !important;
 }
+.secgaditext {
+  font-family: 'Inter';
+  font-size: 15px;
+}
+.secmobile {
+  padding-top: 40px;
+}
 }
 
 
