@@ -23,7 +23,7 @@
   }
   .secherotext {
     text-align: center;
-    padding: 419px;
+    padding: 327px 419px 419px 419px;
 }
   .secherotext h1{
     font-size: 85px;
@@ -365,6 +365,9 @@ ul.dropdown-menu.show {
 }
 .secmobile {
   padding-top: 40px;
+}
+.sec-menu-bgg {
+  background-color: transparent;
 }
 }
 
@@ -944,6 +947,10 @@ p{
 .seciqatext {
   padding: 10px;
 }
-
-
+.secadmin a {
+  font-size: 12px;
+}
+.sec-menu-bgg {
+  background-color: transparent;
+}
 }

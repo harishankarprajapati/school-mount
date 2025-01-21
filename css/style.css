@@ -4,7 +4,7 @@
 }
 
 .headermenusec {
-  color: #000;
+  color: #fff;
   border-style: dotted;
   font-family: 'Roboto';
   padding: 0px;
@@ -18,7 +18,7 @@
 }
 
 .headermenusec:hover {
-  color: #1762AD !important;
+  color: #F3B81B !important;
 }
 .dropdown-item{
   color: #000;
@@ -38,6 +38,7 @@
 }
 
 .sec-menu-bgg {
+  background-color: #1762AD;
   border: 1px solid #DADDE1;
   border-left: 0px;
   border-right: 0px;
@@ -161,7 +162,7 @@
 
 .secherotext {
   text-align: center;
-  padding: 300px;
+  padding: 185px 300px 300px 300px;
 }
 .secpadtex ul li {
   font-family: 'Inter' !important;
