@@ -76,6 +76,7 @@
   position: relative;
   z-index: 99;
   padding-left: 205px;
+  
 }
 
 .owl-dot.active button {

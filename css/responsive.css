@@ -15,10 +15,10 @@
     font-size: 18px;
     font-weight: 600;
   }
-  .secherbg1 , .secherbg2 , .secherbg3 {
+  .secherbg1 , .secherbg2 , .secherbg3 , .secherbg10  {
     height: 890px;
   }
-  .secherbg4{
+  .secherbg4 , .secherbg5  , .secherbg6  , .secherbg7 , .secherbg8 , .secherbg9 {
     height: 890px;
   }
   .secherotext {
@@ -232,8 +232,133 @@
 
 
 @media only screen and (max-width:991px) {
-  
- 
+  .secherotext {
+    text-align: center;
+    padding: 100px;
+}
+.secaf::before {
+  content: " ";
+  position: absolute;
+  left: -24px;
+  bottom: 16px;
+  background-color: #06A2D3;
+  width: 765px;
+}
+.headermenusec {
+  font-size: 17px;
+  padding-bottom: 20px;
+}
+.mobilesec {
+  display: block;
+  width: 60%;
+}
+ .desktosec{
+  display: none;
+ }
+ .secmian-logo {
+  width: 60%;
+  margin: auto;
+}
+.container-fluid.align-items-center {
+  width: 30% !important;
+  display: flex
+;
+  justify-content: flex-end;
+}
+.seccategbg h3 {
+  font-size: 16px;
+}
+.secintbg {
+  padding: 50px 0px 50px 0px;
+}
+.whysectext {
+  font-size: 29px;
+}
+.secintertext p {
+  font-size: 18px;
+}
+button.next-btn2 {
+  background: transparent;
+  border: 0px;
+  margin-left: 62%;
+  margin-top: -36px;
+  font-weight: 600;
+}
+.awpp {
+  font-family: 'Inter';
+  font-size: 14px;
+}
+.actpadd {
+  padding-left: 0px;
+}
+.secaf3::after {
+  top: 0px;
+  left: 0px;
+}
+.secaf2::after {
+  top: -16px;
+  left: -24px;
+}
+.secaf::after {
+  left: -24px;
+}
+.secActibg {
+  padding: 80px 20px 80px 20px;
+}
+.secactptext {
+  font-size: 15px;
+}
+.actpadd2 {
+  padding-left: 15px;
+}
+.actpadd2 h4 {
+  font-size: 26px;
+}
+.actpadd2 p {
+  font-size: 14px;
+}
+.camptittle {
+  font-size: 40px;
+}
+.camptext h4 {
+  font-size: 21px;
+}
+.secmounttext h4 {
+  font-weight: 600;
+  font-size: 15px;
+}
+.socalsec {
+  display: flex ;
+  justify-content: center;
+}
+.secprt {
+  display: flex;
+  justify-content: center;
+}
+ul.dropdown-menu.show {
+  border: 0px;
+}
+.secstu {
+  padding: 0px 0px 0px 0px;
+}
+.vistext {
+  font-size: 36px;
+}
+.secaabbg h2 , .secaabbg100 h2 , .secaabbg101 h2 {
+  font-size: 50px;
+}
+.seciconbggtext h4 {
+  font-size: 18px;
+}
+.seciconbggtext p {
+  font-size: 14px;
+}
+.secaabbg3 h2 {
+  font-size: 50px;
+}
+.sechair{
+  padding-top: 20px !important;
+}
 }
 
 
@@ -279,7 +404,16 @@
     color: #000;
     margin-left: 0px;
     padding-bottom: 20px;
+    font-size: 15px ;
+    padding-bottom: 10px;
   }
+  .headermenusec2 a {
+    font-size: 15px;
+  }
+  .headermenusec2 {
+    background-color: #F3B81B;
+    padding: 0px 10px 0px 10px;
+}
 
   .headmenu2 {
     background: transparent;
@@ -327,7 +461,11 @@
     padding: 164px 10px;
 }
 .heroslider .owl-dots {
-  padding-left: 133px;
+  padding-left: 0px;
+  flex-wrap: wrap;
+}
+.secherotext h2 {
+  font-size: 35px;
 }
 .whysectext {
   font-size: 30px;
@@ -340,7 +478,7 @@
   width: 50%;
 }
 .seccategbg h3 {
-  font-size: 17px;
+  font-size: 13px;
 }
 .secintertext p {
   font-size: 20px;
