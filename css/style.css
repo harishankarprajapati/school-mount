@@ -221,7 +221,7 @@
 
 .seccategbg h3 {
   font-family: 'Inter';
-  font-size: 24px;
+  font-size: 21px;
   text-transform: uppercase;
   font-weight: 600;
   color: #fff;
@@ -566,9 +566,11 @@ button.next-btn3:hover i {
 }
 
 .secsocdibg {
-  padding: 50px 10px;
+  padding: 0px 10px 50px 10px;
 }
-
+.seccamaa{
+  text-decoration: none;
+}
 .secmistittle {
   font-family: 'Inter';
   font-size: 50px;
@@ -702,7 +704,7 @@ button.next-btn3:hover i {
 
 .caamsec h4{
   font-family: 'Inter';
-  font-size: 50px;
+  font-size: 38px;
   color: #051928;
 }
 .caamsec p{

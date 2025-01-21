@@ -97,7 +97,7 @@
   height: 879px;
 }
 .secsocdibg{
-  padding: 80px 10px;
+  padding: 0px 10px 80px 10px;
 }
 .secadmin{
   padding: 60px 0px 40px 0px;
@@ -266,7 +266,7 @@
   justify-content: flex-end;
 }
 .seccategbg h3 {
-  font-size: 16px;
+  font-size: 11px;
 }
 .secintbg {
   padding: 50px 0px 50px 0px;
@@ -488,7 +488,7 @@ ul.dropdown-menu.show {
   width: 50%;
 }
 .seccategbg h3 {
-  font-size: 13px;
+  font-size: 11px;
 }
 .secintertext p {
   font-size: 20px;
@@ -952,5 +952,8 @@ p{
 }
 .sec-menu-bgg {
   background-color: transparent;
+}
+.seccategbg {
+  padding: 10px;
 }
 }
