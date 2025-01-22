@@ -1538,9 +1538,56 @@ display: none;
  /* text-align: center; */
 }
 .tabimg img{
-  width: 15%;
+  width: 30%;
   margin: auto !important;
 }
+
+/* table image popp */
+
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+
+  border: 0px !important;
+}
+.modal-body{
+  text-align: center;
+}
+#modalimg{
+  width: 80% !important;
+  margin: auto !important;
+}
+#miodbbtt{
+  text-align: justify !important;
+}
+th.tapho {
+  width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
