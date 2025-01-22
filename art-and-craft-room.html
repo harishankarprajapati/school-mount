@@ -90,7 +90,7 @@
                     
                 </div>
 
-                <div class="row pb-5">
+                <!-- <div class="row pb-5">
                     <div class="col-md-4">
                         <img class="img-fluid" src="images/Art-roomimg1.JPG" alt="">
                     </div>
@@ -105,6 +105,28 @@
                     </div>
                     <div class="col-md-4">
                         <img class="img-fluid" src="images/art-img3.jpeg" alt="">
+                    </div>
+                </div> -->
+
+
+                <div class="row">
+                    <div class="owl-carousel allgallry owl-theme">
+                        <div class="item">
+                            <img class="img-fluid" src="images/Art-roomimg1.JPG" alt="">
+                        </div>
+                        <div class="item">
+                            <img class="img-fluid" src="images/Art-roomimg2.JPG" alt="">
+                        </div>
+                        <div class="item">
+                            <img class="img-fluid" src="images/art-img1.jpeg" alt="">
+                        </div>
+                        <div class="item">
+                            <img class="img-fluid" src="images/art-img2.jpeg" alt="">
+                        </div>
+                        <div class="item">
+                            <img class="img-fluid" src="images/art-img3.jpeg" alt="">
+                        </div>
+                      
                     </div>
                 </div>
             </div>
@@ -130,6 +152,24 @@
     <script src="js/include-html.min.js"></script>
     <script src='https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js'></script>
 
+    <script>
+        $('.owl-carousel.allgallry').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})
+    </script>
 
 </body>
 

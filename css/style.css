@@ -911,6 +911,7 @@ justify-content: flex-end;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 80px 0px;
+  text-align: center;
 }
 .secaabbg h2{
   font-family: 'Inter';
@@ -918,6 +919,9 @@ justify-content: flex-end;
   font-size: 80px;
   color: #fff;
   text-align: center;
+  background-color: #1762AD;
+  display: inline-block;
+  padding: 5px 10px;
 }
 .seciqatext{
   font-family: 'Inter';
@@ -1004,7 +1008,7 @@ color: #1763AD;
   text-transform: uppercase;
 }
 .fullbgg{
-  margin-top: -90px;
+  margin-top: 50px;
 }
 .fulltext{
   padding-top: 30px;
@@ -1422,6 +1426,7 @@ ul.nav.nav-tabs a.nav-link {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 80px 0px;
+  text-align: center;
 }
 .secaabbg100 h2{
   font-family: 'Inter';
@@ -1429,6 +1434,9 @@ ul.nav.nav-tabs a.nav-link {
   font-size: 80px;
   color: #fff;
   text-align: center;
+  background-color: #1762AD;
+  display: inline-block;
+  padding: 5px 10px;
 }
 
 .secaabbg101{
@@ -1436,6 +1444,7 @@ ul.nav.nav-tabs a.nav-link {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 80px 0px;
+  text-align: center;
 }
 .secaabbg101 h2{
   font-family: 'Inter';
@@ -1443,6 +1452,9 @@ ul.nav.nav-tabs a.nav-link {
   font-size: 80px;
   color: #fff;
   text-align: center;
+  background-color: #1762AD;
+  display: inline-block;
+  padding: 5px 10px;
 }
 .seciconbggtext {
   text-align: center;
@@ -1482,6 +1494,55 @@ ul.nav.nav-tabs a.nav-link {
   text-align: center;
   margin: auto;
 }
+.allgallry .item {
+  height: 550px;
+  width: 100%;
+}
+
+.allgallry .item .img-fluid {
+  max-width: 80%  !important;
+  height: 100%;
+  margin: auto;
+
+}
+.allgallry .owl-dots {
+display: none;
+}
+
+.allgallry .owl-nav{
+  margin-top: -295px;
+  margin-bottom: 337px;
+  z-index: 999;
+  position: relative;
+}
+
+.allgallry button.owl-next {
+  float: right;
+}
+
+.allgallry button.owl-next span {
+  font-size: 40px;
+  background-color: #1762AD;
+  border-radius: 50%;
+  color: #fff;
+  padding: 0px 28px 15px 28px   ;
+}
+.allgallry button.owl-prev span {
+  font-size: 40px;
+  background-color: #1762AD;
+  border-radius: 50%;
+  color: #fff;
+  padding: 0px 28px 15px 28px   ;
+}
+
+
+
+
+
+
+
+
+
 
 
 

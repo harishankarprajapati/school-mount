@@ -956,4 +956,34 @@ p{
 .seccategbg {
   padding: 10px;
 }
+.allgallry .owl-nav {
+  margin-top: 0px;
+  margin-bottom: 33px;
+  z-index: 999;
+  position: relative;
+  text-align: center;
+}
+.allgallry button.owl-prev span {
+  font-size: 25px;
+  background-color: #1762AD;
+  border-radius: 50%;
+  color: #fff;
+  padding: 0px 17px 10px 17px;
+}
+.allgallry button.owl-next span {
+  font-size: 25px;
+  background-color: #1762AD;
+  border-radius: 50%;
+  color: #fff;
+  padding: 0px 17px 10px 17px;
+  margin-left: 20px;
+}
+.allgallry button.owl-next {
+  float: none;
+}
+.allgallry .item .img-fluid {
+  max-width: 100% !important;
+  height: 100%;
+  margin: auto;
+}
 }
