@@ -99,13 +99,13 @@
 }
 
 .secherbg1 {
-  background-image: url(../images/herslider2.png);
+  background-image: url(../images/herslider1.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 630px;
 }
 .secherbg2 {
-  background-image: url(../images/herslider1.png);
+  background-image: url(../images/herslider2.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 630px;
@@ -123,37 +123,37 @@
   height: 630px;
 }
 .secherbg5 {
-  background-image: url(../images/herslider5.jpeg);
+  background-image: url(../images/herslider5.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 630px;
 }
 .secherbg6 {
-  background-image: url(../images/herslider6.jpeg);
+  background-image: url(../images/herslider6.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 630px;
 }
 .secherbg7 {
-  background-image: url(../images/herslider7.jpeg);
+  background-image: url(../images/herslider7.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 630px;
 }
 .secherbg8 {
-  background-image: url(../images/herslider8.jpeg);
+  background-image: url(../images/herslider8.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 630px;
 }
 .secherbg9 {
-  background-image: url(../images/herslider9.jpeg);
+  background-image: url(../images/herslider9.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 630px;
 }
 .secherbg10 {
-  background-image: url(../images/herslider10.jpeg);
+  background-image: url(../images/herslider10.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 630px;
@@ -998,6 +998,7 @@ color: #1763AD;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 80px 0px 100px 0px ;
+  text-align: center;
 }
 .secaabbg3 h2{
   font-family: 'Inter';
@@ -1006,6 +1007,11 @@ color: #1763AD;
   color: #fff;
   text-align: center;
   text-transform: uppercase;
+  background-color: #1762AD;
+    display: inline-block;
+    padding: 5px 10px;
+}
+
 }
 .fullbgg{
   margin-top: 50px;
@@ -1580,7 +1586,9 @@ th.tapho {
 
 /* header2-end */
 
-
+.sechair2{
+  padding-top: 0px;
+}
 
 
 
