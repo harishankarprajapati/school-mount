@@ -1534,7 +1534,13 @@ display: none;
   color: #fff;
   padding: 0px 28px 15px 28px   ;
 }
-
+.tabimg{
+ /* text-align: center; */
+}
+.tabimg img{
+  width: 20%;
+  margin: auto !important;
+}
 
 
 
