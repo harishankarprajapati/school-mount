@@ -598,6 +598,9 @@ button.next-btn3:hover i {
   text-decoration: underline;
   margin: 0px;
 }
+p {
+  text-align: justify !important;
+}
 
 .actpadd2 p {
   color: #fff;
