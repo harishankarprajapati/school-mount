@@ -845,6 +845,7 @@ padding: 50px;
   font-size: 18px;
   font-weight: 300;
   color: #fff;
+  text-align: center !important;
 }
 .footerbtn {
   padding-top: 50px;
