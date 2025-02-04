@@ -70,7 +70,7 @@
 .actpadd2{
   padding-left: 288px;
   padding-top: 80px;
-  padding-bottom: 80px;
+  padding-bottom: 0px;
   padding-right: 60px;
 }
 .secactivitieimg img {
@@ -571,6 +571,10 @@ button.prev-btn2 {
   .secprt p a {
     font-size: 14px;
 }
+.secddff{
+  display: flex;
+  flex-direction: column-reverse;
+}
 .socalsec {
   display: flex;
   justify-content: center;
@@ -910,6 +914,17 @@ marquee {
 }
   .container-fluid.sec-menu-bgg {
     padding: 0;
+    background-color: #1762AD;
+    border: 1px solid #DADDE1;
+  }
+  .sectmobsc2{
+    display: none !important;
+  }
+  .secmobilet{
+    display: block;
+  }
+  .secmobilet  .headeli{
+    padding-bottom: 8px !important;
   }
   .sec9houu p a , .sec9houu p , .sec9hougreen2 p {
     font-size: 15px;
@@ -989,5 +1004,20 @@ p{
 .tabimg img {
   width: 100%;
   margin: auto !important;
+}
+ul.timeline:before {
+  left: 55px;
+}
+ul.timeline .event:before {
+  left: -32px;
+}
+ul.timeline {
+  padding-left: 75px;
+}
+  ul.timeline .time {
+    left: -147px;
+    top: 56px;
+    font-size: 9px;
+
 }
 }
