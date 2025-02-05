@@ -1756,7 +1756,13 @@ textarea#template-contactform-message {
   font-size: 18px !important;
   color: #000 !important;
 }
-
+.secactviname{
+  padding-top: 40px;
+  font-family: 'Inter' !important;
+  color: #1762AD !important;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
 
 
 
