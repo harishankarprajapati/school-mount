@@ -1742,6 +1742,9 @@ ul.timeline .left-arrow:after {
   font-weight: 700;
   border: 0;
 }
+::placeholder{
+  font-family: 'Inter';
+}
 .secsensms:hover{
   background-color: #FFDD00;
 }
@@ -1749,6 +1752,7 @@ textarea#template-contactform-message {
   border: 0px;
   padding-left: 10px;
   padding-top: 4px;
+  margin-bottom: 20px;
 }
 .secantw{
   width: 30%;
