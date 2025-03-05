@@ -1806,3 +1806,10 @@ textarea#template-contactform-message {
     margin-left: 0.5em;
   }
 }
+.secpos {
+  position: fixed;
+  z-index: 999;
+  background: #fff;
+  right: 0;
+  left: 0;
+}
