@@ -258,12 +258,13 @@
  .secmian-logo {
   width: 60%;
   margin: auto;
+  padding-bottom: 10px;
 }
 .container-fluid.align-items-center {
   width: 30% !important;
-  display: flex
-;
+  display: flex;
   justify-content: flex-end;
+  margin: 0;
 }
 .seccategbg h3 {
   font-size: 11px;
@@ -366,8 +367,23 @@ ul.dropdown-menu.show {
 .secmobile {
   padding-top: 40px;
 }
-.sec-menu-bgg {
-  background-color: transparent;
+
+.container-fluid.sec-menu-bgg {
+  padding: 0;
+  background-color: #1762AD;
+  border: 1px solid #DADDE1;
+}
+.container-fluid.sec-menu-bgg {
+  padding: 0;
+  background-color: #1762AD;
+  border: 1px solid #DADDE1;
+}
+.headermenusec {
+  color: #000;
+  margin-left: 0px;
+  padding-bottom: 20px;
+  font-size: 15px;
+  padding-bottom: 10px;
 }
 }
 
