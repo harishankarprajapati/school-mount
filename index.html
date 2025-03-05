@@ -61,9 +61,34 @@
 
 <body>
 
+ 
+
+
 
     <!-- header -->
     <div include-html="header.html" id="header-file"></div>
+
+   <!-- popup -->
+   <body class="bg-dark">
+    <div class="container p-4">
+    <h2 class="text-muted">Website goes here.. </h2>
+    <p class="text-white">Wait for <strong>6 sec</strong> to open popup </p>
+  </div>
+  
+  <div class="modal" id="modalpopup">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <!-- <div class="modal-header p-4">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div> -->
+          <div class="modal-body">
+          <img class="img-fluid" src="images/home-popup.jpg" alt="">
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </body>
 
     <!-- slider -->
     <div class="container-fluid p-0">
@@ -1018,8 +1043,14 @@
                 }
             }
         })
-
-
+        
+        $(document).ready(function(){
+		callshowpopup();
+	});
+var showpopup;
+function callshowpopup(){
+	showpopup =setTimeout(function() {$("#modalpopup").modal("show");},600);
+}
 
     </script>
 </body>
