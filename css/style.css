@@ -1770,6 +1770,12 @@ textarea#template-contactform-message {
   padding-bottom: 20px;
 }
 
+button.btn-close.sechomepop {
+  position: absolute;
+  right: 7px;
+  top: 6px;
+}
+
 
 
 
